@@ -1,0 +1,13 @@
+name: MineMarket
+main: net.digiex.minemarket.MineMarket
+version: 1.0
+website: http://github.com/Digiex/MineMarket
+description: Market protection
+database: false
+load: POSTWORLD
+author: xzKinGzxBuRnzx
+depend: [WorldGuard]
+permissions:
+  minemarket.modify:
+    description: Allows a player to modify the market defined areas
+    default: op
